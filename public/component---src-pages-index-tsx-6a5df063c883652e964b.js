@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{QeBL:function(e,n,t){"use strict";t.r(n),t.d(n,"query",(function(){return r}));var a=t("q1tI"),l=t.n(a),o=t("Wbzz");n.default=function(e){var n=e.data;console.log(n);var t=n.allContentfulBlogSite.edges.map((function(e,n){return l.a.createElement("li",{key:n},l.a.createElement(o.a,{to:e.node.slug},e.node.title))}));return l.a.createElement("ul",null,t)};var r="2617343570"}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-6a5df063c883652e964b.js.map

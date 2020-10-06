@@ -20,6 +20,7 @@
     "gatsby": "^2.24.66",
     "gatsby-source-contentful": "^2.3.49",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "yarn": "^1.22.10"
   }
 }
