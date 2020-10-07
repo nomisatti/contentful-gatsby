@@ -19,6 +19,7 @@
     "dotenv": "^8.2.0",
     "gatsby": "^2.24.66",
     "gatsby-source-contentful": "^2.3.49",
+    "netlify-cli": "^2.65.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "yarn": "^1.22.10"
