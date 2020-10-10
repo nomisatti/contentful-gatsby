@@ -7,9 +7,14 @@ export default ({ data }) => {
   const [netlifyData , setNetlifyData] = useState(Object);
 
   useEffect(() =>{
-    fetch(`/.netlify/functions/hello`)
+    fetch(`/.netlify/functions/faunadb-netlify`)
     .then(response => response.json())
-    .then(data => setNetlifyData(data));
+    .then(data => {
+      
+      setNetlifyData(data),
+      console.log("Data: " + JSON.stringify(data));
+    
+    });
 }, []);
   console.log(data);
   const posts = data.allContentfulBlogSite.edges.map((post, index) =>

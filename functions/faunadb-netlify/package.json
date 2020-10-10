@@ -1,0 +1,15 @@
+{
+  "name": "faunadb-netlify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "faunadb-netlify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "faunadb": "^3.0.1"
+  }
+}
