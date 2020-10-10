@@ -5,8 +5,8 @@ dotenv.config();
 
 (async () => {
 
-    if (process.env.FAUNADB_CHILDDB_SECRET) {
-        const client = new fuunadb.Client({ secret: process.env.FAUNADB_CHILDDB_SECRET})
+    if ('fnAD3sxQ67ACBxmxdEmCjtl68gzqV8yH7Sa-rnC2') {
+        const client = new fuunadb.Client({ secret: 'fnAD3sxQ67ACBxmxdEmCjtl68gzqV8yH7Sa-rnC2'})
 
          
         try {
