@@ -7,6 +7,13 @@ exports.createPages = async function ({graphql , actions}) {
               node {
                 title
                 publishDate
+                image {
+                  title
+                  description
+                  file {
+                    url
+                  }
+                }
                 slug
                 content {
                   json

@@ -16,12 +16,27 @@
   "license": "0BSD",
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^14.1.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.12",
+    "bootstrap": "^4.5.3",
     "dotenv": "^8.2.0",
     "gatsby": "^2.24.66",
     "gatsby-source-contentful": "^2.3.49",
     "netlify-cli": "^2.65.1",
     "react": "^16.13.1",
+    "react-bootstrap": "^1.4.0",
     "react-dom": "^16.13.1",
     "yarn": "^1.22.10"
-  }
+  },
+  "main": "gatsby-config.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomisatti/contentful-gatsby.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nomisatti/contentful-gatsby/issues"
+  },
+  "homepage": "https://github.com/nomisatti/contentful-gatsby#readme"
 }
